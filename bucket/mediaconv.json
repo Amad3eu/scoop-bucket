@@ -1,0 +1,25 @@
+{
+    "version": "0.1.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Amad3eu/mediaconv/releases/download/v0.1.1/mediaconv_0.1.1_windows_amd64.zip",
+            "bin": [
+                "mediaconv.exe"
+            ],
+            "hash": "fb7386daae46fc56d744053de66db5d3d54c9344357f1ec7cebf659da680f848"
+        },
+        "arm64": {
+            "url": "https://github.com/Amad3eu/mediaconv/releases/download/v0.1.1/mediaconv_0.1.1_windows_arm64.zip",
+            "bin": [
+                "mediaconv.exe"
+            ],
+            "hash": "0715d13819ec0b48ef7b79b53d1f12adc80efa66dbc5c4eb03ebd945183e3abc"
+        }
+    },
+    "homepage": "https://amad3eu.github.io/mediaconv/",
+    "license": "MIT",
+    "description": "Safe command-line media converter powered by FFmpeg.",
+    "depends": [
+        "ffmpeg"
+    ]
+}
